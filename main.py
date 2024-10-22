@@ -8,9 +8,9 @@ from style_guide import style_guide_men, style_guide_women
 import json
 import csv
 
-API_TOKEN = "8119951241:AAFK9e6IHq2B7iU8XDcTm-GU_KHd5LHNMrY"
+API_TOKEN = "your api key"
 bot = telebot.TeleBot(API_TOKEN)
-API = 'e119fe20fcb94481b90174333230504'  # ключ для WeatherAPI
+API = 'your api key'  # ключ для WeatherAPI
 
 # Словарь для хранения состояния пользователя
 user_states = {}
